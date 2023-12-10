@@ -1,10 +1,9 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
-
+#include <dt-bindings/zmk/backlight.h>
 
 
 
@@ -23,9 +22,9 @@
 			bindings = <
 				&bootloader
 				&kp ESC   &kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3 &kp NUMBER_4 &kp NUMBER_5 &kp NUMBER_6 &kp NUMBER_7 &kp NUMBER_8 &kp NUMBER_9 &kp NUMBER_0 &kp MINUS &kp PLUS      &kp BACKSPACE &rgb_ug RGB_COLOR_HSB(0,100,50)
-				&kp TAB   &kp Q        &kp W        &kp E        &kp R        &kp T        &mkp MCLK    &kp Y        &kp U        &kp I        &kp O        &kp P     &kp LBKT      &kp RBKT &rgb_ug RGB_COLOR_HSB(0,100,50)
+				&kp TAB   &kp Q        &kp W        &kp E        &kp R        &kp T        &kp NUMBER_6    &kp Y        &kp U        &kp I        &kp O        &kp P     &kp LBKT      &kp RBKT &rgb_ug RGB_COLOR_HSB(0,100,50)
 				&kp CAPS  &kp A        &kp S        &kp D        &kp F        &kp G                                  &kp H        &kp J        &kp K        &kp L     &kp SEMICOLON &kp APOS &rgb_ug RGB_COLOR_HSB(0,100,50)
-				&kp LSHFT &kp Z        &kp X        &kp C        &kp V        &kp B        &mkp MB4     &kp PIPE     &kp N        &kp M        &kp CMMA     &kp DOT   &kp UP        &kp RCTRL &rgb_ug RGB_COLOR_HSB(0,100,50)
+				&kp LSHFT &kp Z        &kp X        &kp C        &kp V        &kp B        &kp NUMBER_6    &kp PIPE     &kp N        &kp M        &kp CMMA     &kp DOT   &kp UP        &kp RCTRL &rgb_ug RGB_COLOR_HSB(0,100,50)
 				&kp LCTRL &kp F8       &kp F9       &kp F10      &kp LALT                                                         &kp FSLH     &kp BSLH     &kp LEFT  &kp DOWN      &kp RIGHT &rgb_ug RGB_COLOR_HSB(0,100,50)
 				                                                              &kp GRAVE    &kp F3       &kp F6       &kp F7
 				                                                 &kp SPACE    &kp LCTRL    &kp F2       &kp F5       &kp ENTER    &kp DEL
